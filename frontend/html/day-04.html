@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Basic information form</h2>
+    <form action="" method="get">
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="age">Enter your age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        <label for="city">Enter your city:</label>
+        <input type="text" id="city" name="city" required><br><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="username">Create a username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Create a password (minlength 4, maxlength 12):</label>
+        <input type="password" id="password" name="password" maxlength="12" minlength="4" required><br><br>
+        <label for="gender">Select your gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male" value="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
