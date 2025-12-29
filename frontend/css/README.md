@@ -18,3 +18,4 @@ Chrome DevTools
 Prettier
 
 This folder reflects my hands-on learning and experimentation with CSS as I work toward building clean, responsive user interfaces.
+
